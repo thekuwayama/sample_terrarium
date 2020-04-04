@@ -1,4 +1,8 @@
-all: deploy
+all: fmt deploy
+
+.PHONY: fmt
+fmt:
+	rustfmt -v src/*
 
 .PHONY: deploy
 deploy: terrctl.install
