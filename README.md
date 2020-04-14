@@ -4,6 +4,8 @@
 
 sample_terrarium is sample using `http_guest::kvstore::KVStore`.
 
+- https://wasm.fastlylabs.com/
+
 
 ## Usage
 
